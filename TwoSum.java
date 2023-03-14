@@ -22,7 +22,7 @@ public class TwoSum{
     public static void main(String[] args) {
         TwoSum obj = new TwoSum();
        int[] nums = new int[]{2,7,11,15};
-       int[] res = obj.twoSum(nums, 9);
-        System.out.println("Res --- " + Arrays.toString(res));
+       int[] result = obj.twoSum(nums, 9);
+        System.out.println("Res --- " + Arrays.toString(result));
     }
 }
